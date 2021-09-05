@@ -1,0 +1,1 @@
+put mobilenetv2_ssd_weights.pth here

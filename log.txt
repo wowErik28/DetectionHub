@@ -1,0 +1,8 @@
+2021.9.4
+为用户方便，将需要继承的模板用python脚本实现，类似于template的方式  使得文件结构清晰明确
+考虑使用工厂模式处理torch和tensorflow 这两个不同的框架
+
+对于train模块
+只需要提供两个文件就可以了  train.txt  classes.txt
+
+unpack batch类操作 都需要定义在BaseTorchTrainDetectionNet里面
